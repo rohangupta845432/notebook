@@ -1,0 +1,22 @@
+.addArea {
+  padding: 20px;
+  background-color: aliceblue;
+  position: fixed;
+  top: 20vh;
+  width: 400px;
+  left: 50%;
+  background-color: white;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.444);
+  backdrop-filter: blur(5px);
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
